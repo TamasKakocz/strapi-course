@@ -59,6 +59,8 @@ $RECYCLE.BIN/
 *.swm
 *.out
 *.pid
+package-lock.json
+yarn.lock
 
 
 ############################
@@ -105,6 +107,7 @@ coverage
 # Strapi
 ############################
 
+*.pem
 .env
 license.txt
 exports

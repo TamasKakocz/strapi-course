@@ -1,13 +1,14 @@
+'use strict';
+
+/**
+ * order router
+ */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::post.post', {
+module.exports = createCoreRouter('api::order.order',{
   config:{
     find:{
-      middlewares:['api::order.clerkauthcheck'],
-      auth: false
-    },
-    create:{
       middlewares:['api::order.clerkauthcheck'],
       auth: false
     }
