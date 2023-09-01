@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "salonusers",
+  "info": {
+    "singularName": "salonuser",
+    "pluralName": "salonusers",
+    "displayName": "SalonUser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "salonUserId": {
+      "type": "uid"
+    },
+    "salonUserEmail": {
+      "type": "email"
+    }
+  }
+}
